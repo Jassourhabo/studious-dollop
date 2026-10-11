@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1A1A"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD000"/>
+      <stop offset="0.5" stop-color="#FF6A00"/>
+      <stop offset="1" stop-color="#E00034"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F5F5"/>
+      <stop offset="1" stop-color="#9AA0A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- shield -->
+  <path fill="url(#fire)" d="M400 130 L640 220 L620 450 Q600 600 400 690 Q200 600 180 450 L160 220 Z"/>
+  <path fill="#111" d="M400 175 L595 250 L578 445 Q562 570 400 645 Q238 570 222 445 L205 250 Z"/>
+  <!-- crossed swords -->
+  <g stroke-linecap="round">
+    <g transform="rotate(40 400 410)">
+      <rect x="388" y="230" width="24" height="270" rx="4" fill="url(#steel)"/>
+      <path d="M388 230 L400 200 L412 230 Z" fill="#F5F5F5"/>
+      <rect x="350" y="495" width="100" height="20" rx="8" fill="url(#fire)"/>
+      <rect x="390" y="515" width="20" height="60" rx="6" fill="#444"/>
+    </g>
+    <g transform="rotate(-40 400 410)">
+      <rect x="388" y="230" width="24" height="270" rx="4" fill="url(#steel)"/>
+      <path d="M388 230 L400 200 L412 230 Z" fill="#F5F5F5"/>
+      <rect x="350" y="495" width="100" height="20" rx="8" fill="url(#fire)"/>
+      <rect x="390" y="515" width="20" height="60" rx="6" fill="#444"/>
+    </g>
+  </g>
+</svg>
